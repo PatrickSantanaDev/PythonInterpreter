@@ -11,7 +11,7 @@ This project features a Python interpreter for a custom programming language, de
 
 The grammar supported by this interpreter includes:
 
-'''plaintext
+```plaintext
 prog     : block
 block    : stmt ';' block
          | stmt
@@ -42,7 +42,7 @@ relop    : '<'
          | '>='
          | '<>'
          | '=='
-
+```
 
 ## Prerequisites
 
